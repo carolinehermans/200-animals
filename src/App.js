@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   constructor(props) {
     super(props)
-    this.numImages = 4
+    this.numImages = 190
     this.state = {
       currImgNum: Math.floor(Math.random() * this.numImages) + 1
     }
