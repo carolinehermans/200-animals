@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  background-color: #AFFFB3;
+}
+img {
+  margin: auto;
+  max-height: 500px;
+  max-width: 80%;
+  display: block;
+  padding-top: 30px;
+}
+
+.button {
+  width: 300px;
+  margin: auto;
+  display: block;
+  height: 90px;
+  background-color: #46A549;
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button-text {
+  text-align: center;
+  margin: auto;
+  line-height: 90px;
+  font-size: 40px;
+  font-family: "Francois One"
+}
+
+.button:hover {
+  background-color: white;
+  color: #46A549;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+}
+
+
+@media (max-width: 771px) { /* phone size */
+  body {
+    width: 100%;
+  }
+
+  .button {
+    max-width: 70%;
+  }
+
+}
